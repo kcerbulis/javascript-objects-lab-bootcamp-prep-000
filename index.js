@@ -11,13 +11,12 @@ var recipes = new Object()
 
 
 
-var recipes2 = Object.assign({}, recipes)
+
 
 
 
 function updateObjectWithKeyAndValue(object, key, value){
-  recipes = object
-  Object.assign({object},{key: value})
+  
 }
 
 
