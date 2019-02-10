@@ -11,7 +11,7 @@ var recipes = new Object()
 
 
 
-var recipes2 = new Object()
+var recipes2 = Object.assign({}, recipes)
 
 
 
