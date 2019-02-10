@@ -16,8 +16,8 @@ var recipes2 = Object.assign({}, recipes)
 
 
 function updateObjectWithKeyAndValue(object, key, value){
-  Object.assign({recipes2}, {recipes})
-  return recipes2
+  recipes = object
+  Object.assign({recipes},{})
 }
 
 
