@@ -20,4 +20,8 @@ function deleteFromObjectByKey(object, key){
   return newRecipes
 }
 
-destructivel
+function destructivelyDeleteFromObjectByKey(object, key){
+  object recipes
+  delete recipes.key
+  return recipes
+}
